@@ -11,14 +11,8 @@ public class SelectionSort {
                     min_index = j;
                 }
             }
-            swap(i, min_index, arr);
+            Swap.swap(i, min_index, arr);
         }
         System.out.println(Arrays.toString(arr));
-    }
-
-    public static void swap (int i, int j, int[] arr) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
     }
 }
