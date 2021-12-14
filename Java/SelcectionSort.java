@@ -1,8 +1,7 @@
 import java.util.Arrays;
 
 public class SelectionSort {
-    public static void sort (int[] arr) {
-        int arr_len = arr.length;
+    public static void sort (int[] arr, int arr_len) {
 
         for (int i=0; i<arr_len; i++) {
             int min_index = i;
