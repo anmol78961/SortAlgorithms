@@ -7,5 +7,6 @@ public class Main {
 	    BubbleSort.sort(arr, arr_len);
 	    RecursiveBubbleSort.sort(arr, arr_len);
 	    InsertionSort.sort(arr, arr_len);
+	    RecursiveInsertionSort.sort(arr, arr_len);
     }
 }
