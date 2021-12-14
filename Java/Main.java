@@ -5,5 +5,6 @@ public class Main {
 	    SelectionSort.sort(arr);
 	    BubbleSort.sort(arr);
 	    RecursiveBubbleSort.sort(arr);
+	    InsetionSort.sort(arr);
     }
 }
