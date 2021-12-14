@@ -1,8 +1,7 @@
 import java.util.Arrays;
 
 public class RecursiveBubbleSort {
-    public static void sort(int[] arr) {
-        int arr_len = arr.length;
+    public static void sort(int[] arr, int arr_len) {
         bubbleSort(arr, arr_len);
         System.out.println(Arrays.toString(arr));
     }
